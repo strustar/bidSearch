@@ -59,7 +59,7 @@ def sidebar():
         col = st.columns(2)
         with col[0]:
             name_keyword = st.text_input(
-                ":green[✨ 공고명 키워드] (공백으로 구분)", value="터널 도로"
+                ":green[✨ 공고명 키워드] (공백으로 구분)", value=""
             ).split()
             # exclude_keyword = st.text_input(":blue[✨ 제외 키워드] (공백으로 구분)", value='교량', disabled=True).split()
         with col[1]:
